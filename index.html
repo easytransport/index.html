@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Грузчики в Киеве | Быстро и Надежно</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #222;
+    }
+    header {
+      background: #ffd500;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #111;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .buttons a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #111;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+    .buttons a:hover {
+      background: #333;
+    }
+    .buttons img {
+      width: 20px;
+      height: 20px;
+    }
+    .services {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    .services h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+    .prices {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    .prices h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background: #f0f0f0;
+    }
+    .order-form {
+      background: #f7f7f7;
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 10px;
+    }
+    .order-form h2 {
+      text-align: center;
+    }
+    .order-form form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .order-form input, .order-form textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    .order-form button {
+      background: #ffd500;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Грузчики в Киеве за 1 час</h1>
+    <p>Работаем по Киеву и области. Специализация — Шевченковский район</p>
+    <div class="buttons">
+      <a href="tel:0992902449">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="Позвонить" />Позвонить
+      </a>
+      <a href="viber://chat?number=%2B380992902449">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/viber.png" alt="Viber" />Viber
+      </a>
+    </div>
+  </header>
+
+  <section class="services">
+    <h2>Наши услуги</h2>
+    <ul>
+      <li>Переезды под ключ</li>
+      <li>Подъём на этаж</li>
+      <li>Разгрузка/погрузка</li>
+      <li>Вывоз строймусора</li>
+      <li>Такелажные работы</li>
+    </ul>
+  </section>
+
+  <section class="prices">
+    <h2>Наши цены</h2>
+    <table>
+      <tr><th>Услуга</th><th>Цена</th></tr>
+      <tr><td>Грузчик</td><td>от 300 грн/час</td></tr>
+      <tr><td>Переезд под ключ</td><td>от 1200 грн</td></tr>
+      <tr><td>Разгрузка фуры</td><td>от 500 грн</td></tr>
+      <tr><td>Такелажные работы</td><td>от 6 грн за кг</td></tr>
+      <tr><td>Вывоз мусора</td><td>от 800 грн</td></tr>
+    </table>
+  </section>
+
+  <section class="order-form">
+    <h2>Заказать услугу</h2>
+    <form>
+      <input type="text" placeholder="Ваше имя" required />
+      <input type="tel" placeholder="Телефон" required />
+      <textarea placeholder="Комментарий (например: 2 грузчика на 10:00)"></textarea>
+      <button type="submit">Оформить заказ</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Телефон: 0992902449 | Пн–Вс, 09:00–20:00 | Шевченковский район, Киев</p>
+  </footer>
+</body>
+</html>
